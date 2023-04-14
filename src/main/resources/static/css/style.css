@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* Estilos gerais */
+body {
+  font-family: Jost, sans-serif;
+  background-color: #323232;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Estilos do formulário */
+#formCadastro {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2rem 1rem;
+  width: 500px;
+  margin: 50px auto;
+  text-align: center;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 1);
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 20px;
+  border-color: #ccc;
+  font-size: 15px;
+}
+
+.form-control:focus {
+  border-color: #6c757d;
+  box-shadow: none;
+}
+
+.box_id {
+  margin-bottom: 15px;
+}
+
+.box_name {
+  margin-bottom: 15px;
+}
+
+.box-cpf{
+  margin-bottom: 15px;
+}
+
+.box_idade {
+  margin-top: 15px;
+  margin-bottom: px;
+}
+
+/* estilo do botão de envio */
+button[type="submit"] {
+  font-size: 16px;
+  margin-top: 2rem;
+  padding: 8px 0;
+  border-radius: 14px;
+  outline: none;
+  border: none;
+  width: 22%;
+  color: #fff;
+  cursor: pointer;
+  background: #0059ff;
+}
+
+/* estilo do botão de envio quando o mouse passa por cima */
+button[type="submit"]:hover {
+  background-color: #005cbf;
+  transform: scale(0.98);
+  transition: transform 0.4s ease-out, background-color 0.3s ease-out;
+}
+
+/* estilo do botão de envio quando está sendo pressionado */
+button[type="submit"]:active {
+  background-color: #005cbf;
+  transform: scale(0.95);
+}
+
+
+.btn-search {
+  font-size: 16px;
+  margin-top: 0.2rem;
+  padding: 8px 0;
+  border-radius: 14px;
+  outline: none;
+  border: none;
+  width: 22%;
+  color: #fff;
+  cursor: pointer;
+  background: #0059ff;
+}
+
+.btn-delete {
+  font-size: 16px;
+  margin-top: 0.2rem;
+  padding: 8px 0;
+  border-radius: 14px;
+  outline: none;
+  border: none;
+  width: 22%;
+  color: #fff;
+  cursor: pointer;
+  background: #ff0000e8;
+}
+
+.btn-primary,
+.btn-reset,
+.btn-search,
+.btn-danger {
+  margin-bottom: 10px;
+  margin-right: 7px;
+}
+
+.btn-search:hover {
+  background-color: #005cbf;
+  transform: scale(0.98);
+  transition: transform 0.4s ease-out, background-color 0.3s ease-out;
+}
+
+.btn-search:active {
+  background-color: #005cbf;
+  transform: scale(0.95);
+}
+
+.btn-delete:hover {
+  background-color: #c50000fd;
+  transform: scale(0.98);
+  transition: transform 0.2s ease-out, background-color 0.3s ease-out;
+}
+
+.btn-delete:active {
+  background-color: #c50000fd;
+  transform: scale(0.95);
+}
+
+.btn-busca {
+  float: left;
+  margin-bottom: 10px;
+  font-size: 16px;
+  margin-top: 0.2rem;
+  padding: 8px 0;
+  border-radius: 14px;
+  outline: none;
+  border: none;
+  width: 22%;
+  color: #fff;
+  cursor: pointer;
+  background: #0059ff;
+}
+
+.btn-busca:hover{
+  background-color: #005cbf;
+  transform: scale(0.98);
+  transition: transform 0.4s ease-out, background-color 0.3s ease-out;
+}
+
+.btn-busca:active{
+  background-color: #005cbf;
+  transform: scale(0.95);
+}
+
+.table-bordered {
+  display: inline;
+  padding: 10px;
+  margin-top: 70px;
+}
